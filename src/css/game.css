@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(225, 225, 225);
+}
+.container{
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 2%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.game{
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.fields{
+  width: 32%;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
